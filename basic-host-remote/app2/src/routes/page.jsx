@@ -4,7 +4,7 @@ import LocalButton from '../components/button';
 
 const Index = () => (
   <div className="container-box">
-    <h1>Basic Host-Remote</h1>
+    <h1>Basic Remote</h1>
     <h2>App 2</h2>
     <LocalButton />
     <Helmet>

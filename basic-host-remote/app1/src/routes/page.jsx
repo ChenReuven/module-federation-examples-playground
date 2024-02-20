@@ -4,7 +4,7 @@ import Button from 'app2/Button';
 
 const Index = () => (
   <div className="container-box">
-    <h1>Basic Host-Remote</h1>
+    <h1>Basic Host</h1>
     <h2>App 1</h2>
     <Helmet>
       <link
