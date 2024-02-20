@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":combinePatchMinorReleases",
+    ":ignoreUnstable",
+    ":prImmediately",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":updateNotScheduled",
+    ":automergeDisabled",
+    ":ignoreModulesAndTests",
+    "group:monorepos",
+    "group:recommended",
+    ":pinAllExceptPeerDependencies",
+    ":pinOnlyDevDependencies"
+  ],
+  "packageRules": [
+    {
+      "matchFileNames": ["version-discrepancy/app1/package.json"],
+      "ignoreDeps": ["lodash"]
+    },
+    {
+      "matchFileNames": [" angular-universal-ssr/*/package.json"],
+      "ignoreDeps": ["@angular/cli", "@angular-devkit/build-angular"]
+    }
+  ]
+}
