@@ -14,6 +14,8 @@ const App = () => {
   return (
     <div>
       <h1>Host Application - React Version {React.version}</h1>
+      <button>Btn 1</button>
+      <input type="text" />
       <h2>App 1</h2>
       <div id={parentElementId}></div>
     </div>
