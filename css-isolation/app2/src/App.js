@@ -18,7 +18,7 @@ const App = ({ isStandalone = false }) => {
 
   return (
     <div style={{ border: '1px red solid' }}>
-      <h1>Remote Application - React Version {React.version}</h1>
+      <div>Remote Application - React Version {React.version}</div>
       <h2>App 2</h2>
       <button onClick={() => setDummyLoaded(true)}>Make Everything Yellow</button>
       <input type="text" />

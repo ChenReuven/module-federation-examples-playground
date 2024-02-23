@@ -13,7 +13,7 @@ const App = () => {
   // App2 will be injected in the div with parentElementId
   return (
     <div>
-      <h1>Host Application - React Version {React.version}</h1>
+      <div>Host Application - React Version {React.version}</div>
       <button>Btn 1</button>
       <input type="text" />
       <h2>App 1</h2>

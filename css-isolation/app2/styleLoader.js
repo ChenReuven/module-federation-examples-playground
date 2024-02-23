@@ -15,7 +15,15 @@ export const createShadowContainer = parentElementId => {
   const appPlaceholder = document.createElement('div');
   appPlaceholder.id = 'app-placeholder';
   body.appendChild(appPlaceholder);
+
+
+  const font = document.createElement("link");
+  font.href = "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+  font.rel = "stylesheet"
+  document.head.appendChild(font);
+  
   shadowContainer.shadowRoot.appendChild(body);
+  
   containers[parentElementId] = shadowContainer;
   return appPlaceholder;
 };

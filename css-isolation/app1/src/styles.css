@@ -1,4 +1,10 @@
+html, html:host {
+  font-family: "Open Sans", serif;
+  font-size: 14px;
+}
+
 * {
   font-style: italic;
   color: green;
 }
+
