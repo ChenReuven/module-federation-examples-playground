@@ -1,6 +1,7 @@
 import React, { lazy, Suspense, useEffect, useState } from 'react';
 import { runStandalone } from '../styleLoader';
 import './styles.css';
+import customImage from "../assets/image.png";
 
 // Lazy load a dummy component which imports another global CSS rule
 const Dummy = lazy(() => import('./Dummy'));
@@ -20,6 +21,8 @@ const App = ({ isStandalone = false }) => {
     <div style={{ border: '1px red solid' }}>
       <div>Remote Application - React Version {React.version}</div>
       <h2>App 2</h2>
+      <img src="https://via.placeholder.com/150" alt="placeholder" />
+      <img src={customImage} alt="placeholder" />
       <button onClick={() => setDummyLoaded(true)}>Make Everything Yellow</button>
       <input type="text" />
       {dummyLoaded && (
