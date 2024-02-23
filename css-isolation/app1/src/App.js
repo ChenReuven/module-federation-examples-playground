@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import './styles.css';
 import { inject, cleanup } from 'app2/appInjector';
+import customImage from "../assets/image.png";
+import customImageSvg from "../assets/image.svg";
 
 const parentElementId = 'parent';
 
@@ -16,8 +18,12 @@ const App = () => {
       <div>Host Application - React Version {React.version}</div>
       <button>Btn 1</button>
       <input type="text" />
-      <h2>App 1</h2>
-      <div id={parentElementId}></div>
+      <img src={customImage} height="50" width="50" alt="placeholder" />
+      <img src={customImageSvg} height="50" width="50" alt="placeholder" />
+      <div>
+        <h2>App 1</h2>
+        <div id={parentElementId}></div>
+      </div>
     </div>
   );
 };

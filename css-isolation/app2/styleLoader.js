@@ -17,6 +17,7 @@ export const createShadowContainer = parentElementId => {
   body.appendChild(appPlaceholder);
 
 
+  // Must Add this to add the font from the shadow dom to the parent dom
   const font = document.createElement("link");
   font.href = "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
   font.rel = "stylesheet"

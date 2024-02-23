@@ -1,0 +1,18 @@
+1. multiframework - work with stich
+2. css isolation - work with stich
+3. images
+    - cdn url
+    - use react import image
+4. fonts: - Issues!
+    - cdn url
+    - use react import font
+    - icons versions issue
+5. 
+
+
+Framework/Util:
+
+Admin Portal:
+
+Service:
+1. get webpack file and edit it / vite config
