@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div>
       <div>Host Application - React Version {React.version}</div>
-      <button>Btn 1</button>
+      <button className='m-2'>Btn 1</button>
       <input type="text" />
       <img src={customImage} height="50" width="50" alt="placeholder" />
       <img src={customImageSvg} height="50" width="50" alt="placeholder" />

@@ -8,3 +8,6 @@ html, html:host {
   color: green;
 }
 
+.m-22:host {
+  padding: 20px;;
+}

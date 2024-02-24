@@ -57,6 +57,7 @@ module.exports = {
       exposes: {
         './appInjector': './src/appInjector',
       },
+      shared: ['react', 'react-dom']
     }),
     new HtmlWebpackPlugin({
       template: './public/index.html',

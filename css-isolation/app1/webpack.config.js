@@ -48,6 +48,7 @@ module.exports = {
       remotes: {
         app2: `app2@${getRemoteEntryUrl(3002)}`,
       },
+      shared: ['react', 'react-dom']
     }),
     new HtmlWebpackPlugin({
       template: './public/index.html',
