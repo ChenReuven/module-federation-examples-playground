@@ -1,14 +1,31 @@
 1. multiframework - work with stich
-2. css isolation - work with stich
+2. css isolation - work with stich (injector)
 3. images
     - cdn url
     - use react import image
-4. fonts: - Issues!
+4. fonts: - Issue!
     - cdn url
     - use react import font
     - icons versions issue
-5. 
 
+
+
+
+5. Developer Experience:
+    - Error Boundary! - MUST! - When Host try to get remote that dosnt exist - all application failed!
+        - remoteEntryExports.init is not a function
+    - Each Service can develop by its own (need cert)
+        - Must Have Error Boundary
+    - Admin Portal
+        - Must Have Error Boundary
+    - if you load it via dynamic routes you can load stuff on the fly (Need to check Dynamic import)
+        - with change of localhost it need to work
+        - @module-federation/utilities library
+        
+
+6. API
+
+7. shared dependencies
 
 Framework/Util:
 
@@ -16,3 +33,4 @@ Admin Portal:
 
 Service:
 1. get webpack file and edit it / vite config
+2. need a "standalone" as part of the webpack

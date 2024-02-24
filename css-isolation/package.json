@@ -15,5 +15,8 @@
   },
   "devDependencies": {
     "wait-on": "7.2.0"
+  },
+  "dependencies": {
+    "@module-federation/utilities": "^3.0.5"
   }
 }
